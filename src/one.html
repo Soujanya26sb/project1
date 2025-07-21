@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar" style="background-color: #e3f2fd;" data-bs-theme="light">
+    <div class="container-fluid">
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRekxaP1y2CiCNr7fX7rb_5tZmcDKiEzmBNSQ&s" height="80px" width="80px" class="d-inline-block align-text-top" style="text-align:center, bold">
+                </a>
+            </div>
+        </nav>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menwear.html">Men</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="womenwear.html">Women</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="kidswear.html">Kids</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="teddy.html">Teddy</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Electronics
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="homeappliances.html">Home appliances</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="jewelleries.html">Jewellery</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img_1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img_2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img_3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img_6.jpg" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<h3 style="color:purple; text-align:center; font-family:Lucida Handwriting">COLLECTIONS</h3>
+<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+
+    <!-- Men's Fashion Card -->
+    <div class="card" style="width: 18rem; border: 1px solid #ccc; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwVLBTcRMfpwbWLwEXBkEr4vF--JkJnPZaCA&s" class="card-img-top" alt="Men Fashion" style="width: 100%;">
+        <div class="card-body" style="padding: 15px;">
+            <h5 class="card-title">Men's Fashion</h5>
+            <p class="card-text">Style is a way to say who you are without speaking</p>
+            <a href="menwear.html" class="btn btn-primary" style="text-decoration: none; background-color: #007bff; color: white; padding: 8px 12px; border-radius: 5px;">Click here</a>
+        </div>
+    </div>
+
+    <!-- Women's Fashion Card -->
+    <div class="card" style="width: 18rem; border: 1px solid #ccc; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYDgNo0HY03d50zsBz9iVrwur2YqjZVxoSdg&s" class="card-img-top" alt="Women Fashion" style="width: 100%;">
+        <div class="card-body" style="padding: 15px;">
+            <h5 class="card-title">Women's Fashion</h5>
+            <p class="card-text">Style is a way to say who you are without speaking</p>
+            <a href="womenwear.html" class="btn btn-primary" style="text-decoration: none; background-color: #007bff; color: white; padding: 8px 12px; border-radius: 5px;">Click here</a>
+        </div>
+    </div>
+
+    <!-- Kids' Fashion Card -->
+    <div class="card" style="width: 18rem; border: 1px solid #ccc; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <img src="img4.jpg">
+        <div class="card-body" style="padding: 15px;">
+            <h5 class="card-title">Kids' Fashion</h5>
+            <p class="card-text">Style is a way to say who you are without speaking</p>
+            <a href="womenwear.html" class="btn btn-primary" style="text-decoration: none; background-color: #007bff; color: white; padding: 8px 12px; border-radius: 5px;">Click here</a>
+        </div>
+    </div>
+
+    <!-- teddy' Fashion Card -->
+    <div class="card" style="width: 18rem; border: 1px solid #ccc; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <img src="img_5.jpg" class="card-img-center" alt="Kids Fashion" style="width:300px; height:180px;">
+        <div class="card-body" style="padding: 15px;">
+            <h5 class="card-title">Teddy Fashion</h5>
+            <p class="card-text">Style is a way to say who you are without speaking</p>
+            <a href="homeappliances.html" class="btn btn-primary" style="text-decoration: none; background-color: #007bff; color: white; padding: 8px 12px; border-radius: 5px;">Click here</a>
+        </div>
+    </div>
+</div>
+<footer style="background-color:black; color:white">
+    <p>Contact us</p>
+    <p><strong>Email:</strong>sbsoujanya4@gmail.com</p>
+    <p><strong>Number:</strong>9980607212</p>
+    <p><strong>Location:</strong>Kengeri, Bangalore</p>
+    <div><a href="footer.html">about</a></div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
